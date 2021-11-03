@@ -51,6 +51,17 @@ public class bank {
     public void setAdress(String adress) {
         this.adress = adress;
     }
+
+    @Override
+    public String toString() {
+        return "bank{" +
+                "id=" + id +
+                ", schet=" + schet +
+                ", credit=" + credit +
+                ", FIO='" + FIO + '\'' +
+                ", adress='" + adress + '\'' +
+                '}';
+    }
 }
 
 

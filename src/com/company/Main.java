@@ -14,7 +14,11 @@ int i,j; // intervalga kazhet ainimalilar
 i=sc.nextInt();
         j=sc.nextInt();
         for (int k=0; k<4;k++) {
-            if (b[i].getCredit()>i && b[i].getCredit()>j) System.out.println(b[k].toString());
+            if (b[k].getCredit()>i && b[k].getCredit()<j) {
+                String h = b[k].toString();
+                System.out.println(h);
+            }
         }
+
     }
 }
